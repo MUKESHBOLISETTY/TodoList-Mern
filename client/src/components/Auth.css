@@ -1,0 +1,12 @@
+.container {
+    @apply h-[90vh] flex flex-col md:flex-row relative;
+}
+.details-container {
+    @apply flex flex-col justify-center items-center w-full md:w-1/2 px-6 py-8 bg-white;
+}
+.details-title {
+    @apply text-2xl md:text-3xl font-bold text-gray-800 mb-4 md:mb-6;
+}
+.labels {
+    @apply block text-gray-600 text-sm font-medium mb-2;
+}
